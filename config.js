@@ -1,12 +1,9 @@
-// Все 27 изображений подключены; старт выбран пользователем: Бьютики-2.
-// Основной путь: home-empty → catalog → catalog-liked → favorites → confirm → success → coupon.
-// Остальные связи предварительные, восстановлены по содержимому картинок.
 window.PROTOTYPE = {
   "start": "home-empty",
   "screens": {
     "zero": {
       "title": "0",
-      "image": "assets/0.png",
+      "image": "assets/zero.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -79,7 +76,7 @@ window.PROTOTYPE = {
     },
     "zero-tech": {
       "title": "0 — копия",
-      "image": "assets/0 — копия.png",
+      "image": "assets/zero-tech.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -152,7 +149,7 @@ window.PROTOTYPE = {
     },
     "store-only": {
       "title": "Frame 2147225366",
-      "image": "assets/Frame 2147225366.png",
+      "image": "assets/store-only.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -168,7 +165,7 @@ window.PROTOTYPE = {
     },
     "product": {
       "title": "IMG_0829 1",
-      "image": "assets/IMG_0829 1.png",
+      "image": "assets/product.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -184,7 +181,7 @@ window.PROTOTYPE = {
     },
     "coupons-tech": {
       "title": "Активированы-1",
-      "image": "assets/Активированы-1.png",
+      "image": "assets/coupons-tech.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -256,7 +253,7 @@ window.PROTOTYPE = {
     },
     "coupons-all": {
       "title": "Активированы-2",
-      "image": "assets/Активированы-2.png",
+      "image": "assets/coupons-all.png",
       "width": 360,
       "height": 986,
       "hotspots": [
@@ -344,7 +341,7 @@ window.PROTOTYPE = {
     },
     "coupons": {
       "title": "Активированы",
-      "image": "assets/Активированы.png",
+      "image": "assets/coupons.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -416,7 +413,7 @@ window.PROTOTYPE = {
     },
     "home-alt": {
       "title": "Бьютики-1",
-      "image": "assets/Бьютики-1.png",
+      "image": "assets/home-alt.png",
       "width": 360,
       "height": 1851,
       "hotspots": [
@@ -537,7 +534,7 @@ window.PROTOTYPE = {
     },
     "home-empty": {
       "title": "Бьютики-2",
-      "image": "assets/Бьютики-2.png",
+      "image": "assets/home-empty.png",
       "width": 360,
       "height": 1851,
       "hotspots": [
@@ -668,7 +665,7 @@ window.PROTOTYPE = {
     },
     "home": {
       "title": "Бьютики",
-      "image": "assets/Бьютики.png",
+      "image": "assets/home.png",
       "width": 360,
       "height": 1851,
       "hotspots": [
@@ -789,7 +786,7 @@ window.PROTOTYPE = {
     },
     "map-beauty": {
       "title": "Бьютики — копия",
-      "image": "assets/Бьютики — копия.png",
+      "image": "assets/map-beauty.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -837,7 +834,7 @@ window.PROTOTYPE = {
     },
     "progress": {
       "title": "В процессе",
-      "image": "assets/В процессе.png",
+      "image": "assets/progress.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -861,7 +858,7 @@ window.PROTOTYPE = {
     },
     "store": {
       "title": "Детальная",
-      "image": "assets/Детальная.png",
+      "image": "assets/store.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -885,7 +882,7 @@ window.PROTOTYPE = {
     },
     "history": {
       "title": "История",
-      "image": "assets/История.png",
+      "image": "assets/history.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -901,7 +898,7 @@ window.PROTOTYPE = {
     },
     "help": {
       "title": "Как это работает",
-      "image": "assets/Как это работает.png",
+      "image": "assets/help.png",
       "width": 360,
       "height": 711,
       "hotspots": [
@@ -934,7 +931,7 @@ window.PROTOTYPE = {
     },
     "map-earn": {
       "title": "Накопить",
-      "image": "assets/Накопить.png",
+      "image": "assets/map-earn.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -966,7 +963,7 @@ window.PROTOTYPE = {
     },
     "favorites-tech": {
       "title": "Понравились-1",
-      "image": "assets/Понравились-1.png",
+      "image": "assets/favorites-tech.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -1022,7 +1019,7 @@ window.PROTOTYPE = {
     },
     "favorites-all": {
       "title": "Понравились-2",
-      "image": "assets/Понравились-2.png",
+      "image": "assets/favorites-all.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -1094,7 +1091,7 @@ window.PROTOTYPE = {
     },
     "favorites": {
       "title": "Понравились",
-      "image": "assets/Понравились.png",
+      "image": "assets/favorites.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -1166,7 +1163,7 @@ window.PROTOTYPE = {
     },
     "tech": {
       "title": "Техника",
-      "image": "assets/Техника.png",
+      "image": "assets/tech.png",
       "width": 360,
       "height": 1851,
       "hotspots": [
@@ -1287,7 +1284,7 @@ window.PROTOTYPE = {
     },
     "map-tech": {
       "title": "Техника — копия",
-      "image": "assets/Техника — копия.png",
+      "image": "assets/map-tech.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -1335,7 +1332,7 @@ window.PROTOTYPE = {
     },
     "products": {
       "title": "Товары-участники",
-      "image": "assets/Товары-участники.png",
+      "image": "assets/products.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -1383,7 +1380,7 @@ window.PROTOTYPE = {
     },
     "coupon": {
       "title": "Уже активирован",
-      "image": "assets/Уже активирован.png",
+      "image": "assets/coupon.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -1408,7 +1405,7 @@ window.PROTOTYPE = {
     },
     "catalog-liked": {
       "title": "он",
-      "image": "assets/он.png",
+      "image": "assets/catalog-liked.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -1473,7 +1470,7 @@ window.PROTOTYPE = {
     },
     "catalog": {
       "title": "офф",
-      "image": "assets/офф.png",
+      "image": "assets/catalog.png",
       "width": 360,
       "height": 740,
       "hotspots": [
@@ -1531,7 +1528,7 @@ window.PROTOTYPE = {
     },
     "confirm": {
       "title": "🍏 Bottomsheet template-1",
-      "image": "assets/🍏 Bottomsheet template-1.png",
+      "image": "assets/confirm.png",
       "width": 360,
       "height": 440,
       "hotspots": [
@@ -1556,7 +1553,7 @@ window.PROTOTYPE = {
     },
     "success": {
       "title": "🍏 Bottomsheet template",
-      "image": "assets/🍏 Bottomsheet template.png",
+      "image": "assets/success.png",
       "width": 360,
       "height": 420,
       "hotspots": [
