@@ -1,0 +1,29 @@
+:root { font-family: system-ui, sans-serif; color: #222; background: #eceef1; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+#app { width: 100%; max-width: 390px; margin: auto; background: white; }
+#stage { position: relative; width: 100%; outline: none; overflow: hidden; }
+.screen-scroll { position: absolute; inset: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior-y: contain; scrollbar-width: none; }
+.screen-scroll::-webkit-scrollbar { display: none; }
+.overlay-background { overflow: hidden; pointer-events: none; z-index: 0; isolation: isolate; }
+.screen-image { display: block; width: 100%; height: auto; }
+.screen-surface { position: relative; width: 100%; }
+.viewport-crop { position: absolute; inset: 0; height: 100%; object-fit: cover; object-position: top; }
+.bottom-sheet { position: absolute; bottom: 0; left: 0; z-index: 2; }
+.overlay-shade { position: absolute; inset: 0; background: #0006; z-index: 1; }
+.hotspot { position: absolute; border: 0; padding: 0; background: transparent; cursor: pointer; border-radius: 8px; }
+.hotspot:focus-visible { outline: 3px solid #0065ff; outline-offset: -3px; background: #0065ff25; }
+.debug .hotspot { border: 2px dashed #0065ff; background: #0065ff20; }
+.debug .hotspot::after { content: attr(aria-label); position: absolute; inset: 0 auto auto 0; background: #004cc7; color: white; font: 12px system-ui; padding: 3px; }
+#status { margin: 0; padding: 0 16px; }
+#status:not(:empty) { padding: 24px 16px; }
+[hidden] { display: none !important; }
+#inspector { position: fixed; top: 16px; left: max(16px, calc(50% + 220px)); width: 280px; padding: 20px; background: white; border: 1px solid #ccc; border-radius: 12px; font-size: 14px; }
+#inspector label { display: block; margin: 16px 0; }
+#inspector select, #inspector textarea, #inspector button { font: inherit; max-width: 100%; }
+#inspector textarea { width: 100%; }
+#inspector button { margin-top: 12px; padding: 8px; }
+.measuring { touch-action: none; cursor: crosshair; }
+.measuring .hotspot { pointer-events: none; }
+#selection { position: absolute; border: 2px solid #e00035; background: #e0003525; pointer-events: none; }
+@media(max-width: 1000px) { #inspector { position: static; width: min(100%, 390px); margin: 16px auto; } }

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Magnit — прототип</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main id="app" aria-label="Прототип">
+    <div id="stage" tabindex="-1"></div>
+    <p id="status" role="status"></p>
+  </main>
+  <aside id="inspector" hidden aria-label="Настройка прототипа">
+    <strong>Проверка экранов</strong>
+    <label>Экран <select id="screens"></select></label>
+    <label><input id="measure" type="checkbox"> Выделить кликабельную область</label>
+    <p>Зажми и протяни по изображению. Координаты — в размерах исходного фрейма.</p>
+    <textarea id="coordinates" readonly aria-label="Координаты области" rows="4"></textarea>
+    <button id="restart" type="button">В начало</button>
+  </aside>
+  <noscript>Для переходов между экранами включи JavaScript.</noscript>
+</body>
+</html>
